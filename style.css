@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+}
+
+.Top-wrapper{
+    background-image: url("top_en.png");
+    background-size: cover;
+    padding: 180px 0px 100px 0px;
+    color: white;
+    text-align: center;
+}
+
+.button-wrapper i{
+    margin-right: 5px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container h1{
+    opacity: 0.7;
+    letter-spacing: 5px;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display: inline-block;
+    background-color: white;
+    padding: 12px 24px;
+    opacity: 0.8;
+    color: white;
+    border-radius: 12px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.email{
+    background-color: rgb(167, 6, 6);
+}
+
+.twitter{
+    background-color: #55acee;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.8);
+    position: fixed;
+    z-index: 10;
+}
+
+.logo{
+    width: 124px;
+    margin-top: 28px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+    background-color: rgba(225, 225, 225, 0.5);
+    transition: all 0.5s;
+}
+
+.header-right a{
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    display: block;
+}
+
+.header-right:hover{
+    background-color:  rgba(225, 225, 225, 0.3);
+}
+
+.lessons-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+    margin-top: 50px;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color: white;
+    
+}
+
+.heading{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.txt-contents{
+    width: 80%;
+}
+
+.message-wrapper{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message{
+    padding: 15px 40px;
+    background-color: greenyellow;
+    cursor: pointer;
+    box-shadow: 0px 10px green;
+}
+
+.message:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+footer img{
+    width: 125px;
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+}
